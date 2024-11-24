@@ -2,14 +2,14 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBZaIzYF5ozPxodnfxMQI_Azf2xnk8Hdrw",
-    authDomain: "crossfit-app-45689.firebaseapp.com",
-    projectId: "crossfit-app-45689",
-    storageBucket: "crossfit-app-45689.appspot.com",
-    messagingSenderId: "172968183910",
-    appId: "1:172968183910:web:1b48e17ba79266ea5dc5a7",
-    measurementId: "G-SC16FBWZ36"
-};
+    apiKey: "AIzaSyANivvtDJWlN1ATpyeY3bAtvyK_W7vF5Hk",
+    authDomain: "feet-3ad91.firebaseapp.com",
+    projectId: "feet-3ad91",
+    storageBucket: "feet-3ad91.firebasestorage.app",
+    messagingSenderId: "20563934805",
+    appId: "1:20563934805:web:513aeeeecacd6be2e8dedc",
+    measurementId: "G-JJ7W4BNFHX"
+  };
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
